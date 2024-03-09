@@ -9,7 +9,7 @@ import { usePathname } from 'next/navigation'
 
 const Navbar = () => {
   const pathname = usePathname()
-  const [navOpen, setNavOpen] = useState(false)
+  const [navOpen, setNavOpen] = useState(true)
   const [showLogout, setShowLogout] = useState(false)
 
   const navButton = () => {

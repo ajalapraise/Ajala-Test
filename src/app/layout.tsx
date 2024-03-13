@@ -17,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={` w-screen flex h-screen ${inter.className}`}>
+      <body className={` min-w-sreen max-w-[2000px] lg:mx-auto overflow-hidden flex h-screen ${inter.className}`}>
         <div className="max-w-[272px]">
           <Navbar />
         </div>
